@@ -1,14 +1,14 @@
-# Kris-Tof Dice Toss
+# Kris-Tof DiceRoller Toss
 
-Create a Dice class that acts like a set of N random-tossed dies.
+Create a DiceRoller class that acts like a set of N random-tossed dies.
 
 ```java
-Dice dice = new Dice(2); // for craps
-Dice dice = new Dice(5); // for yatzee
+DiceRoller dice = new DiceRoller(2); // for craps
+DiceRoller dice = new DiceRoller(5); // for yatzee
 
 Integer toss = dice.tossAndSum();
 ```
-make a couple unit tests for the Dice class. 
+make a couple unit tests for the DiceRoller class.
 
 Create a tracking class Bins that can be used to track these results.
 
@@ -59,4 +59,3 @@ Simulation of 2 dice tossed for 1000000 times.
 11 :    55799: 0.06 *****
 12 :    27514: 0.03 **
 ```
-
